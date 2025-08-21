@@ -33,7 +33,7 @@ dynamic-dataset-generator/
 │   └── index.html      # Frontend template (HTML)
 └── README.md           # Project documentation
 
-
+```
 ---
 
 ## Installation & Setup
