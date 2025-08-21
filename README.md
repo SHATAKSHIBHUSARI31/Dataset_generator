@@ -42,19 +42,20 @@ dynamic-dataset-generator/
    ```bash
    git clone https://github.com/<your-username>/dynamic-dataset-generator.git
    cd dynamic-dataset-generator
+   ```
 ---
 ## Create virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
-
+```
 ---
 ## Install dependencies
 ```bash
 pip install -r requirements.txt
 
-
+```
 ---
 ## Run the Flask server
 python app.py
