@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dataset Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Dynamic Dataset Generator</h2>
+        <form action="/generate" method="post">
+            <label for="num_rows">Rows:</label>
+            <input type="number" id="num_rows" name="num_rows" value="1000" required><br><br>
+
+            <label for="num_cols">Columns:</label>
+            <input type="number" id="num_cols" name="num_cols" value="5" required><br><br>
+
+            <div id="columns"></div>
+
+            <button type="button" onclick="addColumnField()">Add Column</button><br><br>
+            <input type="submit" value="Generate CSV">
+        </form>
+    </div>
+</body>
+</html>
