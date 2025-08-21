@@ -21,16 +21,17 @@ You can define the number of rows, columns, and data types (Integer, Float, Stri
 ---
 
 ## Project Structure
+
 dynamic-dataset-generator/
 │
-├── app.py                # Flask backend (main application file)
-├── requirements.txt      # Python dependencies
+├── app.py # Flask backend (main application file)
+├── requirements.txt # Python dependencies
 ├── static/
-│   ├── app.js            # Frontend logic (JavaScript)
-│   └── style.css         # Styling (CSS)
+│ ├── app.js # Frontend logic (JavaScript)
+│ └── style.css # Styling (CSS)
 ├── templates/
-│   └── index.html        # Frontend template (HTML)
-└── README.md             # Project documentation
+│ └── index.html # Frontend template (HTML)
+└── README.md # Project documentation
 
 
 ---
